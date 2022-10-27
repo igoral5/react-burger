@@ -3,6 +3,7 @@ import appHeaderStyles from './app-header.module.css';
 
 const AppHeader = props => {
     return (
+        <nav>
         <ul className={appHeaderStyles.menu_header}>
             <li>
                 <div className={appHeaderStyles.menu_item}>
@@ -19,7 +20,7 @@ const AppHeader = props => {
             <li>
                 <div className={appHeaderStyles.menu_item_logo}>
                     <Logo type="primary"/>
-                    </div>
+                </div>
                 </li>
             <li>
                 <div className={appHeaderStyles.menu_item}>
@@ -28,6 +29,7 @@ const AppHeader = props => {
                 </div>
             </li>
         </ul>
+        </nav>
     );
 }
 export default AppHeader;
