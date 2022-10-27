@@ -2,12 +2,12 @@
     align-items: center;
     display: grid;
     grid-template-columns: max-content max-content 1fr max-content;
+    padding: 0;
 }
 
 .menu_item {
     display: grid;
     grid-template-columns: repeat(2, max-content);
-    margin-right: 20px;
 }
 
 .menu_item_logo {

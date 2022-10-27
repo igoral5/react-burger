@@ -6,7 +6,7 @@ const AppHeader = props => {
         <nav>
         <ul className={appHeaderStyles.menu_header}>
             <li>
-                <div className={appHeaderStyles.menu_item}>
+                <div className={appHeaderStyles.menu_item + ' mr-10'}>
                     <BurgerIcon type="primary"/>
                     <span className="text_type_main-default ml-2">Конструктор</span>
                 </div>

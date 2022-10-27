@@ -13,10 +13,10 @@ const ProductList = ({data, type}) => {
         <div>
             <div className="text text_type_main-medium">{typeDefine[type]}</div>
             <div className={productListStyles.product_list}>
-        {data.filter(it => it.type === type).map(val =>(
-            <Product name={val.name} image={val.image} price={val.price} key={val._id}/> 
-        ))}
-        </div>
+                {data.filter(it => it.type === type).map(val =>(
+                    <Product name={val.name} image={val.image} price={val.price} key={val._id}/> 
+                ))}
+            </div>
         </div>
     );
 }

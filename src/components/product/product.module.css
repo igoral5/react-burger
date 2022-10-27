@@ -4,9 +4,12 @@
     align-items: center;
     padding: 0px;
     height: 200px;
-    width: 300px;
+    width: 310px;
 }
 .price {
     display: grid;
     grid-template-columns: repeat(2, max-content);
+}
+.name {
+    text-align: center;
 }

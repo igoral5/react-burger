@@ -1,0 +1,9 @@
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    width: 1240px;
+}
