@@ -1,7 +1,4 @@
 .product_list {
     display: flex;
     flex-flow: row wrap;
-    width: 650px;
-    height: 700px;
-    overflow: auto;
 }

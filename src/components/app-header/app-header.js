@@ -6,27 +6,27 @@ const AppHeader = props => {
         <nav>
         <ul className={appHeaderStyles.menu_header}>
             <li>
-                <div className={appHeaderStyles.menu_item + ' mr-10'}>
+                <a className={appHeaderStyles.menu_item + ' mr-10'}>
                     <BurgerIcon type="primary"/>
                     <span className="text_type_main-default ml-2">Конструктор</span>
-                </div>
+                </a>
             </li>
             <li>
-                <div className={appHeaderStyles.menu_item}>
+                <a className={appHeaderStyles.menu_item}>
                     <ListIcon type="primary"/>
                     <span className="text text_type_main-default ml-2">Лента заказов</span>
-                </div>
+                </a>
             </li>
             <li>
-                <div className={appHeaderStyles.menu_item_logo}>
+                <a className={appHeaderStyles.menu_item_logo}>
                     <Logo type="primary"/>
-                </div>
-                </li>
+                </a>
+            </li>
             <li>
-                <div className={appHeaderStyles.menu_item}>
+                <a className={appHeaderStyles.menu_item}>
                     <ProfileIcon type="primary"/>
                     <span className="text text_type_main-default ml-2">Личный кабинет</span>
-                </div>
+                </a>
             </li>
         </ul>
         </nav>

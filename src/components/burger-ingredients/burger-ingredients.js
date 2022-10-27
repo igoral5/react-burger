@@ -2,6 +2,7 @@ import React from "react";
 import { Tab } from "@ya.praktikum/react-developer-burger-ui-components";
 import data from '../../utils/data';
 import ProductList from "../product-list/product-list";
+import burgerIngredientsStyles from './burger-ingredients.module.css';
 
 
 const BurgerIngredients = props => {
@@ -20,7 +21,11 @@ const BurgerIngredients = props => {
                     Начинка
                 </Tab>
             </div>
-            <ProductList data={data} type={current}/>
+            <div className={burgerIngredientsStyles.ingredients}>
+                <ProductList data={data} type={'bun'}/>
+                <ProductList data={data} type={'sauce'}/>
+                <ProductList data={data} type={'main'}/>
+            </div>
         </div>
     );
 }
