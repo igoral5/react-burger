@@ -4,12 +4,12 @@ import appStyles from './app.module.css';
 
 const App = props => {
     return (
-        <main className={appStyles.all}>
+        <div className={appStyles.all}>
             <div className={appStyles.container}>
                 <AppHeader/>
                 <AppBody/>
             </div>
-        </main>
+        </div>
     );
 }
 export default App;
