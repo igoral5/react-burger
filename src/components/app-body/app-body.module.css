@@ -1,0 +1,8 @@
+.app_body {
+    display: flex;
+    flex-direction: row;
+}
+
+.place {
+    width: 40px;
+}

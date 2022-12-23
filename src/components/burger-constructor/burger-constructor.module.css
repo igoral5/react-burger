@@ -1,0 +1,27 @@
+.constructor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.constructor_item_2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.constructor_item_3 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.place {
+    height: 100px;
+}
+
+.place_icon{
+    width: 23px;
+}

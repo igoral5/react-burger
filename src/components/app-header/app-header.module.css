@@ -1,0 +1,21 @@
+.menu_header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: max-content max-content 1fr max-content;
+    padding: 0;
+}
+
+.menu_item {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+}
+
+.menu_item_logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_header li {
+    list-style: none;
+}
